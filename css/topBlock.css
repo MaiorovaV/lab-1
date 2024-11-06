@@ -1,0 +1,46 @@
+.page__top{
+    color: #FFFFFF;
+}
+
+.top-content__left{
+    flex-grow: 1;
+    position: absolute;
+    width: 603px;
+    padding-top: 200px;
+}
+
+.top-content__right{
+    flex-grow: 1;
+}
+
+.top-content{
+    display: flex;
+}
+
+.top-content__button--explore-small{
+    background-color: #FFFFFF;
+    opacity: 75%;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 15px;
+}
+
+.top-content__button--explore-large{
+    margin-top: 50px;
+    background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%);
+    color: #FFFFFF;
+    font-size: 25px;
+    padding: 25px;
+    border-radius: 27px;
+}
+
+.top-content__title{
+    margin-top: 50px;
+    font-size: 55px;
+}
+
+.top-content__text{
+    margin-top: 50px;
+    font-size: 25px;
+    opacity: 50%;
+}

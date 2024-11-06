@@ -1,0 +1,47 @@
+.content{
+    display: flex;
+}
+
+.feedback{
+    margin-left: 50px;
+}
+
+.feedback__question{
+    font-size: 45px;
+}
+
+.feedback__person{
+    display: flex;
+    margin-top: 50px;
+}
+
+.feedback__avatar{
+    border-radius: 50%;
+}
+
+.feedback__info{
+    margin-left:  20px;
+    margin-top:  10px;
+    
+}
+
+.feedback__name{
+    font-size: 33px;
+}
+
+.feedback__location{
+    margin-top:  10px;
+    font-size: 25px;
+    opacity: 50%;
+}
+
+.feedback__description{
+    margin-top: 75px;
+    font-size: 22px;
+    opacity: 50%;
+}
+
+.feedback__rating{
+    display: flex;
+    margin-top: 50px;
+}
