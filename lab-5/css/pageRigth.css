@@ -1,0 +1,7 @@
+.page__rigth{
+    flex: 50%;
+}
+
+.page__rigth-img{
+    box-shadow: inset 0px 0px 0px 40px #111822
+}

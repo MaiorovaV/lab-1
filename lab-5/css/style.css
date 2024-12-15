@@ -1,0 +1,17 @@
+@import url("pageRigth.css");
+@import url("pageLeft.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Raleway;
+}
+
+.page{
+    margin: 0 auto;
+    width: 1440px;
+    background-color: #111822;
+    display: flex;
+}

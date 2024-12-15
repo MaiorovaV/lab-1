@@ -1,0 +1,28 @@
+.card-img{
+    width: 280px;
+    height: 135px;
+    border-radius: 20px;
+}
+
+.card-title{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 17px;
+}
+
+.card-text{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    color: #846464;
+    margin-top: 5px;
+    margin-bottom: 24px;
+}
+
+.card-link{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: underline;
+}
