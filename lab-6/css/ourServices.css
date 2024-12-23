@@ -1,0 +1,141 @@
+.ourServices{
+    margin-top: 150px;
+    display: flex;
+    gap: 100px;
+}
+
+.ourServices__textBlock{
+    flex: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ourServices__textBlock-name{
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.ourServices__textBlock-title{
+    font-weight: 700;
+    font-size: 55px;
+    margin-top: 18px;
+}
+
+.ourServices__textBlock-text{
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.ourServices__textBlock-buttonText{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.ourServices__iconsBlock{
+    flex: 50%
+}
+
+.ourServices__textBlock-button{
+    margin-top: 32px;
+    display: flex;
+    gap: 8px;
+    justify-content: end;
+}
+
+.ourServices__iconsBlock-row{
+    display: flex;
+    gap: 41px;
+}
+
+.ourServices__iconsBlock-block{
+    margin-top: 41px;
+    padding: 35px;
+    border: 1px solid white;
+    border-radius: 30px;
+    width: 262px;
+    height: 269px;
+}
+
+.ourServices__iconsBlock-text{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 32px;
+}
+
+.ourServices__iconsBlock-monitor{
+    background-color: #E2E2E2;
+    padding: 29px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.ourServices__iconsBlock-settings{
+    background-color: #FF4646;
+    padding: 29px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.ourServices__iconsBlock-pen{
+    background-color: #8EEA77;
+    padding: 29px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.ourServices__iconsBlock-tv{
+    background-color: #FFB21A;
+    padding: 29px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+@media(max-width: 840px){
+    .ourServices{
+        margin-top: 100px;
+        display: block;
+    }
+
+    .ourServices__textBlock{
+        text-align: center;
+    }
+
+    .ourServices__textBlock-button{
+        justify-content: baseline;
+    }
+
+    .ourServices__iconsBlock-row{
+        display: block;
+    }
+
+    .ourServices__iconsBlock-block{
+        margin: 20px auto;
+    }
+
+    .ourServices__iconsBlock-text{
+        font-size: 16px;
+    }
+
+    .ourServices__textBlock-name{
+        font-size: 14px;
+    }
+
+    .ourServices__textBlock-title{
+        font-size: 24px;
+    }
+
+    .ourServices__textBlock-text{
+        font-size: 14px;
+    }
+}

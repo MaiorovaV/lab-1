@@ -1,0 +1,141 @@
+.hero{
+    position: static;
+}
+
+.hero-title{
+    margin-top: 69px;
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.hero-subtitle{
+    margin-top: 24px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.hero-button{
+    font-size: 16px;
+    font-weight: 700;
+    color: #0E0E0E;
+    text-align: center;
+    width: 200px;
+    background-color: white;
+    padding: 12px 0;
+    border-radius: 24px;
+    margin: 32px auto;
+}
+
+.hero__imgBlock{
+   margin-top: 32px; 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+
+.hero__imgBlock-content{
+    position: relative;
+}
+
+.hero__imgBlock-img{
+    margin: 0 auto;
+}
+
+.hero__comment{
+    width: 166px;
+    height: 166px;
+    background-color: #0D0D0D;
+    position: absolute;
+    padding: 25px 20px;
+    border-radius: 24px;
+    top: 342px;
+    left: 680px;
+
+}
+
+.hero__userInfo{
+    display: flex;
+    margin-left: 12px;
+}
+
+.hero__userInfo-avatar{
+    border-radius: 50%;
+}
+
+.hero__userTextInfo-name{
+    margin: 6px 0 3px 8px;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.hero__userTextInfo-role{
+    margin-left: 8px;
+    opacity: 50%;
+    font-size: 6px;
+    font-weight: 600;
+}
+
+.hero__comment-comment{
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+.hero__fitback{
+    width: 175px;
+    height: 95px;
+    background-color: #0D0D0D;
+    position: absolute;
+    top: 20px;
+    left: -80px;
+    padding: 25px 20px;
+    border-radius: 24px;
+}
+
+.hero__fitback-topBlock{
+    display: flex;
+}
+
+.hero__fitback--title{
+    margin: 4px 0 0 4px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.hero__fitback-subtitle{
+    margin-top: 7px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+@media(max-width: 840px){
+    .hero-title{
+        font-size: 28px;
+    }
+
+    .hero-subtitle{
+        font-size: 14px;
+    }
+
+    .hero-button{
+        width: 146px;
+    }
+
+    .hero__fitback{
+        top: -15px;
+        left: -9px;
+    }
+
+    .hero__comment{
+        top: 165px;
+        left: 261px;
+    }
+
+    .hero__imgBlock--img{
+        width: 340px;
+        height: 242px;
+    }
+}

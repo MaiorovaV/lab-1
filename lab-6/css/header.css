@@ -1,0 +1,121 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo{
+    display: flex;
+    gap: 8px;
+    border-radius: 20px;
+
+}
+
+.header__logo-title{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+.header__logo-subTitle{
+    margin-top: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+li{
+    list-style: none;
+}
+
+.header__navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__navbar-menu{
+    display: flex;
+    align-items: center;
+}
+
+.nav-branding{
+    font-size: 2rem;
+}
+
+.header__navbar-link{
+    transition: 0.5s ease;
+    color: white;
+}
+
+.header__hamburger{
+    display: none;
+    cursor: pointer;
+}
+   
+.header__hamburger-bar{
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background: white;
+}
+
+.header__navbar-item{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 1.5rem;
+}
+
+.header__navbar-lastItem{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 1.5rem;
+    border: 1px solid white;
+    border-radius: 24px;
+
+}
+
+@media(max-width: 830px){
+  .header__hamburger-bar{
+      display: block;
+  }
+  .header__hamburger{
+      display: block;
+  }
+  .header__hamburger.active .header__hamburger-bar:nth-child(2){
+      opacity: 0;
+  }
+  .header__hamburger.active .header__hamburger-bar:nth-child(1){
+      transform: rotate(45deg) translateY(11.5px); 
+  }  
+  .header__hamburger.active .header__hamburger-bar:nth-child(3){
+      transform: rotate(-45deg) translateY(-11.5px); 
+  }
+  .header__navbar-menu{
+    margin-top: 64px;
+      position: fixed;
+      right: -100%;
+      top: 70px;
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+      background: black;
+      transition: 0.3s;
+      z-index: 1000;
+  }
+  .header__navbar-item{
+      padding: 1.5rem 0;
+  }
+
+  .header__navbar-lastItem{
+    padding: 24px 1.5rem ;
+    margin-bottom: 24px;
+  }
+      
+  .header__navbar-menu.active{
+      right: 0;
+  }
+      
+}
+

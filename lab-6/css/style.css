@@ -1,0 +1,25 @@
+@import url("aboutUs.css");
+@import url("footer.css");
+@import url("header.css");
+@import url("hero.css");
+@import url("ourPortfolio.css");
+@import url("ourServices.css");
+@import url("withUs.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Nunito;
+    color: #E2E2E2;
+}
+
+.page{
+    margin: 0 auto;
+    background-color: #0E0E0E;
+}
+
+.page__content{
+    padding: 72px 100px;
+}
